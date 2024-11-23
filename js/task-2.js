@@ -6,4 +6,12 @@ const salaries = {
   Mango: 100,
   Poly: 160,
   Ajax: 1470,
+};
+
+let sum = 0;
+const number = Object.values(salaries);
+
+for (let elem of number) {
+  sum += elem;
 }
+console.log(sum);
